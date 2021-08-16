@@ -1,9 +1,9 @@
-fib1 = 1
-fib2 = 1
-
-n = input("number Fib: ")
-n = int(n)
-
+# fib1 = 1
+# fib2 = 1
+#
+# n = input("number Fib: ")
+# n = int(n)
+#
 # i = 0
 # while i < n - 2:
 #     fib_sum = fib1 + fib2
@@ -12,7 +12,7 @@ n = int(n)
 #     i = i + 1
 #
 # print("value :", fib2)
-#
+
 # class Fib:
 #     def __init__(self, n):
 #         self.n = n

@@ -1,4 +1,4 @@
-def corut():
+def corut_func():
     n = 0
     c = 1
     while True:
@@ -6,7 +6,8 @@ def corut():
         n += a
         c += 1
 
-cor = corut()
-next(cor)
-x = int(input("enter number: "))
-print(cor.send(x))
+
+corut = corut_func()
+next(corut)
+x = int(input("Enter number: "))
+print(corut.send(x))
